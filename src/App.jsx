@@ -19,7 +19,8 @@ function App() {
     <Route path="/classes" element={<Classes />} />
     <Route path="/pricing" element={<Pricing />} />
   </Routes>
-  
+  <H
+  <Footer />
 </Router>
     );
 }
