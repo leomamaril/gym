@@ -1,0 +1,184 @@
+
+/* Font Family */
+.poppins {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+.bebas {
+  font-family: 'Bebas Neue', sans-serif;
+  font-style: normal;
+}
+
+body {
+  background-color: #141414 !important;
+  color: #fff !important;
+  margin: 0;
+}
+
+.text-base{color: #E2712D !important;
+text-decoration: none;}
+
+
+
+
+.max-w-1440 {
+  max-width: 90rem !important;
+}
+.bg-black{background-color: #141414;}
+.bg-gray{background-color: #222222 !important;}
+
+
+/* Line Hieght */
+.line-xs{line-height: 0.25rem !important;}
+.line-sm{line-height: 0.75rem !important;}
+.line-1{line-height: 1 !important; }
+.line-2{line-height: 2 !important; }
+.line-3{line-height: 3 !important; }
+.line-4{line-height: 4 !important; }
+
+
+/* Button */
+.btn-gymfit-primary {
+  border: #E2712D 1px solid;
+  color: #fff;
+  font-size: 1rem;
+  font-family: 'Bebas Neue', sans-serif;
+  border-radius: 50px;
+  background-color: #E2712D;
+  padding: 5px 20px;
+}
+.btn-gymfit-primary:hover {
+  border: #E2712D 1px solid;
+  color: #E2712D;
+  background-color: transparent;
+}
+
+.btn-gymfit-outline {
+  border: #E2712D 1px solid;
+  color: #E2712D;
+  font-size: 1rem;
+  font-family: 'Bebas Neue', sans-serif;
+  border-radius: 50px;
+  background-color: transparent;
+  padding: 5px 20px;
+}
+
+.btn-gymfit-outline:hover {
+  border: #E2712D 1px solid;
+  color: #fff;
+  background-color: #E2712D;
+
+}
+
+
+.gym-nav-bg {
+  background-color: #141414;
+  padding-left: 0;
+  padding-right: 0;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.fs-10{
+  font-size: 0.75rem !important;
+}
+.gym-sub-nav {
+  width: 100vw;
+  background-color: #141414;
+  max-width: 90rem;
+  margin: 0 auto;
+  padding: 0.5% 5%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.nav-item .nav-link:hover{
+color: #E2712D!important;
+text-decoration: underline;
+text-decoration-thickness: 3px;
+}
+
+.nav-item .nav-link.active{
+  color: #E2712D!important;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding: 20px 0;
+  min-height: 400px;
+}
+
+.carousel-track {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  padding: 0 ;
+}
+
+
+.card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  overflow: hidden;
+
+
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.card-body {
+  padding: 0!important;
+  flex-grow: 1;
+}
+
+
+.carousel-button {
+  z-index: 10;
+  background: #E2712D;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.carousel-button:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+
+
+
+.carousel-item {
+  flex: 0 0 calc(33.333% - 7px);
+  min-width: 0;
+}
