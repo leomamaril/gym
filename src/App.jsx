@@ -12,16 +12,16 @@ import Footer from './Pages/Footer';
 function App() {
     return (
         <Router basename="/gym">
-  <Navbar />
-  <Routes>
-    <Route path="/home" element={<Home />} />
-    <Route path="/about" element={<About />} />
-    <Route path="/classes" element={<Classes />} />
-    <Route path="/pricing" element={<Pricing />} />
-  </Routes>
-  <H
-  <Footer />
-</Router>
+            <Navbar />
+            <Routes>
+                <Route path="/home" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/classes" element={<Classes />} />
+                <Route path="/pricing" element={<Pricing />} />
+            </Routes>
+            <Home />
+            <Footer />
+        </Router>
     );
 }
 
