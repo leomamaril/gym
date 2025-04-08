@@ -1,100 +1,160 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /* Font Family */
 .poppins {
   font-family: "Poppins", sans-serif;
   font-style: normal;
 }
+
 .bebas {
   font-family: 'Bebas Neue', sans-serif;
   font-style: normal;
 }
+
 body {
   background-color: #141414 !important;
   color: #fff !important;
   margin: 0;
 }
-.text-base{color: #E2712D !important;
-text-decoration: none;}
-html{
+
+.text-base {
+  color: #E2712D !important;
+  text-decoration: none;
+}
+
+html {
   font-size: 16px;
 }
+
 .max-w-1280 {
   max-width: 1280px !important;
   padding: 0 4rem !important;
 }
+
+.gym-nav-bg {
+  background-color: #141414;
+  padding-left: 0;
+  padding-right: 0;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.gym-sub-nav {
+  width: 100%;
+  background-color: #141414;
+  max-width: 1280px;
+  padding: 0 4rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 @media screen and (max-width: 991px) {
   .max-w-1280 {
-    max-width: 100% !important;
+
     padding: 0 3rem !important;
   }
-  
+
+  .gym-sub-nav {
+    padding: 0 3rem;
+  }
+
 }
+
 @media screen and (max-width: 767px) {
   .max-w-1280 {
-    max-width: 100% !important;
+
     padding: 0 2rem !important;
   }
-  
+
+  .gym-sub-nav {
+    padding: 0 2rem;
+  }
+
 }
+
 @media screen and (max-width: 575px) {
   .max-w-1280 {
-    max-width: 100% !important;
+
     padding: 0 1.5rem !important;
   }
-  
+
+  .gym-sub-nav {
+    padding: 0 1.5rem;
+  }
+
 }
 
 
 
-.bg-black{background-color: #141414;}
-.bg-gray{background-color: #222222 !important;}
+.bg-black {
+  background-color: #141414;
+}
+
+.bg-gray {
+  background-color: #222222 !important;
+}
 
 /*Desktop Font Size */
-.font-p{
+.font-p {
   font-size: 1rem !important;
 }
-.font-btn, .font-name{
+
+.font-btn,
+.font-name {
   font-size: 1.5rem !important;
 }
-.font-nav{
+
+.font-nav {
   font-size: 1.25rem !important;
 }
-.font-class{
+
+.font-class {
   font-size: 2rem !important;
 }
 
 
-.font-pp{
+.font-pp {
   font-size: 1rem !important;
 }
-.font-xl{
+
+.font-xl {
   font-size: 5.625rem !important;
 }
-.font-lg{
+
+.font-lg {
   font-size: 4rem !important;
 }
-.font-md{
+
+.font-md {
   font-size: 3.5rem !important;
 }
-.font-sm{
+
+.font-sm {
   font-size: 0.75rem !important;
 }
 
-@media  (max-width: 991px) {
-  .font-xl{
+@media (max-width: 991px) {
+  .font-xl {
     font-size: 3.5rem !important;
   }
-  .font-lg{
+
+  .font-lg {
     font-size: 2.5rem !important;
   }
-  .font-md{
+
+  .font-md {
     font-size: 2.5rem !important;
   }
-  .font-sm{
+
+  .font-sm {
     font-size: 0.625rem !important;
   }
-  .font-pp{
+
+  .font-pp {
     font-size: 0.8125rem !important;
   }
 }
@@ -113,11 +173,13 @@ html{
   background-color: #E2712D;
   padding: 3px 20px;
 }
+
 .btn-gymfit-primary:hover {
   border: #E2712D 1px solid;
   color: #E2712D;
   background-color: transparent;
 }
+
 .btn-gymfit-outline {
   border: #E2712D 1px solid;
   color: #E2712D;
@@ -128,11 +190,13 @@ html{
   background-color: transparent;
   padding: 3px 20px;
 }
+
 .btn-gymfit-outline:hover {
   border: #E2712D 1px solid;
   color: #fff;
   background-color: #E2712D;
 }
+
 .btn-gymfit {
   border: none;
   color: #E2712D;
@@ -142,6 +206,7 @@ html{
   border-radius: 50px;
   background-color: transparent;
 }
+
 .btn-gymfit:hover {
   color: #fff;
   text-decoration: underline;
@@ -149,41 +214,23 @@ html{
 }
 
 
-.gym-nav-bg {
-  background-color: #141414;
-  padding-left: 0;
-  padding-right: 0;
-  display: block;
-  position: relative;
-  overflow: hidden;
-}
-
-.gym-sub-nav {
-  width: 100%;
-  background-color: #141414;
-  max-width: 1280px;
-  padding: 0 1rem;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 
 
-.nav-item .nav-link:hover{
-color: #E2712D!important;
-text-decoration: underline;
-text-decoration-thickness: 3px;
-}
 
-.nav-item .nav-link.active{
-  color: #E2712D!important;
+.nav-item .nav-link:hover {
+  color: #E2712D !important;
   text-decoration: underline;
   text-decoration-thickness: 3px;
- }
+}
+
+.nav-item .nav-link.active {
+  color: #E2712D !important;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+}
 
 
- .parallax-container {
+.parallax-container {
   position: relative;
   overflow: hidden;
 }
@@ -216,7 +263,7 @@ text-decoration-thickness: 3px;
   display: flex;
   width: 100%;
   gap: 10px;
-  padding: 0 ;
+  padding: 0;
 }
 
 .card {
@@ -235,9 +282,10 @@ text-decoration-thickness: 3px;
 }
 
 .card-body {
-  padding: 0!important;
+  padding: 0 !important;
   flex-grow: 1;
 }
+
 .carousel-button {
   z-index: 10;
   background: #E2712D;

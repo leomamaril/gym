@@ -8,7 +8,7 @@ export default function Navbar() {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark gym-nav-bg g-0">
-      <div className="container-fluid gym-sub-nav px-4">
+      <div className="container-fluid gym-sub-nav">
         <Link className="navbar-brand" to="/">
           <img
             src={logo}
@@ -37,7 +37,7 @@ export default function Navbar() {
             <NavbarLink target="contact" href="/Pricing" text="Pricing Plan" />
           </ul>
           <div className="ms-auto">
-            <Link to="/contact" className="btn-gymfit mx-4 font-nav">
+            <Link to="/contact" className="btn-gymfit mx-3 font-nav">
               Book a Consultation
             </Link>
             <Link to="/contact" className="btn-gymfit-primary font-nav">
