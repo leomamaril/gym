@@ -11,7 +11,7 @@ import Footer from './Pages/Footer';
 
 function App() {
     return (
-        <Router>
+        <Router basename="/gym">
             <Navbar />
             <Routes>
                 <Route path="/" element={<Home />} />
@@ -20,7 +20,7 @@ function App() {
                 <Route path="/classes" element={<Classes />} />
                 <Route path="/pricing" element={<Pricing />} />
             </Routes>
-            <Footer/>
+            <Footer />
         </Router>
     );
 }
