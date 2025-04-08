@@ -48,12 +48,12 @@ export default function CarouselList() {
                 <SubContainer >
                     <div className="row align-items-end g-0 gy-3 mt-5">
                         <div className="col-12 col-md-12 order-1 order-md-1">
-                            <h1 className="fs-5 bebas">{TRAINER.subtitle}</h1>
-                            <h1 className="display-4 bebas text-base">{TRAINER.title}</h1>
+                            <h1 className="font-name bebas">{TRAINER.subtitle}</h1>
+                            <h1 className="font-md bebas text-base">{TRAINER.title}</h1>
 
                             {/* Only appear on large screens */}
                             <div className="d-none d-lg-flex flex-column flex-md-row justify-content-between gap-3 ">
-                                <p className="fs-6 poppins mb-0" style={{ width: '35rem' }}>{TRAINER.body}</p>
+                                <p className="font-p poppins mb-0" style={{ width: '35rem' }}>{TRAINER.body}</p>
                                 <div>
                                 <button
                                     onClick={prevSlide}
@@ -76,7 +76,7 @@ export default function CarouselList() {
                             {/* Only appear on small and medium screens */}
 
                             <div className="d-flex d-lg-none flex-column flex-md-row justify-content-between gap-3 mt-3">
-                                <p className="fs-6 poppins mb-0" >{TRAINER.body}</p>
+                                <p className="font-p poppins mb-0" >{TRAINER.body}</p>
                                 <div className='d-flex gap-3 justify-content-end'>
                                     <button
                                         onClick={prevSlide}
@@ -96,26 +96,27 @@ export default function CarouselList() {
                             </div>
                         </div>
                     </div>
+
                     <div className="carousel-container">
-                        <div className="carousel-track">
+                        <div className="carousel-track py-3">
                             {visibleItems.map((item, index) => (
-                                <div key={index} className="card text-white bg-gray pb-2" >
+                                <div key={index} className="card text-white bg-gray pb-2 " >
                                     <img src={item.img} className="card-img-top" style={{ height: "100%" }} alt={item.title} />
                                     <div className="card-body">
-                                        <h5 className="fs-4 card-title bebas mt-3 ms-3 text-base">{item.title}</h5>
-                                        <p className="small card-text poppins ms-3">{item.body}</p>
+                                        <h5 className="font-name card-title bebas mt-3 ms-3 text-base">{item.title}</h5>
+                                        <p className="font-p card-text poppins ms-3">{item.body}</p>
                                     </div>
                                 </div>
                             ))}
                         </div>
                     </div>
-                    <div className="d-none d-sm-block mt-3">
+                    <div className="d-none d-sm-block my-4">
                         <div className="d-flex gap-3 w-100 justify-content-center">
-                            <button className="btn-gymfit-primary text-center px-5 bebas ps-5 pe-5">View All Classes</button>
+                            <button className="btn-gymfit-primary text-center fonr-btn px-5 bebas">View All Classes</button>
                         </div>
                     </div>
                     <div className="d-flex d-sm-none justify-content-center gap-3 mt-3 w-100">
-                        <button className="btn-gymfit-primary w-100">View All Classes</button>
+                        <button className="btn-gymfit-primary w-100 font-btn">View All Classes</button>
                     </div>
                 </SubContainer>
             </Container>

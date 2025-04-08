@@ -13,12 +13,12 @@ export default function Footer() {
                             <img src={logo} alt="Gymfit" className="img-fluid d-block" style={{ width: '15rem' }} />
                         </div>
                         <div className="col-md-6 d-none d-md-block text-start">
-                            <p className="fs-6 poppins">{FOOTER.title}</p>
+                            <p className="font-p poppins">{FOOTER.title}</p>
                         </div>
                         {/* Medium screens (md) - Centered stacked layout */}
                         <div className="col-12 d-md-none d-lg-none text-center">
                             <img src={logo} alt="Gymfit" className="img-fluid mb-3" style={{ width: '40vw' }} />
-                            <p className="fs-6 poppins mx-auto" style={{ maxWidth: '25rem' }}>
+                            <p className="font-p poppins mx-auto" style={{ maxWidth: '25rem' }}>
                                 {FOOTER.title}
                             </p>
                         </div>
@@ -26,10 +26,10 @@ export default function Footer() {
                     <hr className="my-4" />
                     <div className="row">
                         <div className="col-5">
-                            <h1 className="fs-4 bebas">Quick Links</h1>
+                            <h1 className="font-name bebas">Quick Links</h1>
                             <div className="navbar-collapse" id="navbarNav">
                                 <div className="d-none d-md-block">
-                                    <ul className="navbar-nav flex-row">
+                                    <ul className="navbar-nav flex-row gap-4">
                                         <NavbarLink target="home" href="/home" text="Home" />
                                         <NavbarLink target="about" href="/About" text="About Us" />
                                         <NavbarLink target="services" href="/Classes" text="Classes" />
@@ -63,7 +63,7 @@ export default function Footer() {
 
 
                         <div className="col-6">
-                            <h1 className="fs-4 bebas">follow us on our social medias</h1>
+                            <h1 className="font-name bebas">follow us on our social medias</h1>
                             <div className="d-flex gap-3">
                                 <span>Fb</span>
                                 <span>Ig</span>

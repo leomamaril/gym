@@ -43,7 +43,7 @@ function SubContainer({
            px-4
            mx-auto
            position-relative
-           max-w-1440
+           max-w-1280
             `}
             {...props}
         >

@@ -15,7 +15,7 @@ export const GYM_HEADER = {
 export const ABOUT_US = {
     about: "ABOUT US",
     title: <>
-        We are not just a gym, <br />
+        We are not just a gym,
         we are a whole community
     </>,
     body: "At our core, we believe fitness is more than just workouts—it’s about support, motivation, and growth. Our community is built on encouragement, shared goals, and a passion for a healthier lifestyle. Whether you’re a beginner or a seasoned athlete, you’ll find a place where you belong, push limits, and celebrate every milestone together.",

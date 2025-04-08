@@ -8,7 +8,7 @@ const NavbarLink = ({ target, href, text }) => {
                 to={href}
                 data-target={target}
                 className={({ isActive }) =>
-                    `nav-link text-white me-3 bebas ${isActive ? 'active' : ''}`
+                    `nav-link font-nav text-white mx-3 bebas ${isActive ? 'active' : ''}`
                 }
             >
                 {text}
