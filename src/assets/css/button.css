@@ -1,0 +1,67 @@
+/* Button */
+.btn-gymfit-primary {
+    border: #E2712D 1px solid;
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    font-family: 'Bebas Neue', sans-serif;
+    border-radius: 50px;
+    background-color: #E2712D;
+    padding: 3px 20px;
+  }
+  .btn-gymfit-primary:hover {
+    border: #E2712D 1px solid;
+    color: #E2712D;
+    background-color: transparent;
+  }
+  .btn-gymfit-outline {
+    border: #E2712D 1px solid;
+    color: #E2712D;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Bebas Neue', sans-serif;
+    border-radius: 50px;
+    background-color: transparent;
+    padding: 3px 20px;
+  }
+  .btn-gymfit-outline:hover {
+    border: #E2712D 1px solid;
+    color: #fff;
+    background-color: #E2712D;
+  }
+  .btn-gymfit {
+    border: none;
+    color: #E2712D;
+    font-size: 1rem;
+    text-decoration: none;
+    font-family: 'Bebas Neue', sans-serif;
+    border-radius: 50px;
+    background-color: transparent;
+  }
+  .btn-gymfit:hover {
+    color: #fff !important;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+  }
+
+
+
+  .submit-btn {
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    border-radius: 100px;
+    background-color: #E2712D;
+    border: none;
+  }
+  .submit-btn:hover {
+    border: #E2712D 1px solid;
+    color: #E2712D;
+    background-color: transparent;
+  }
+
+  .pricing-button {
+    width: 100%;
+    max-width: 100%;
+    
+}

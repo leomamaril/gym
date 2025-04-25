@@ -1,6 +1,3 @@
-import image_4 from '../assets/img/image4.png'
-import image_5 from '../assets/img/image5.png'
-import image_6 from '../assets/img/image6.png'
 import image from '../assets/img/image10.png';
 export const CLASSES_HEADING = {
     subtitle: 'OUR WORKOUT CLASS',
@@ -10,59 +7,3 @@ export const CLASSES_HEADING = {
 };
 
 
-export const CLASSES = [
-    {
-        img: image_4,
-        title: 'HIIT (High-Intensity Interval Training)',
-        body: 'Fast-paced, calorie-burning workouts combining strength and cardio.',
-        discover: 'DISCOVER NOW >'
-    },
-    {
-        img: image_5,
-        title: 'Strength Training',
-        body: 'Focused weightlifting and resistance exercises to build muscle and endurance.',
-        discover: 'DISCOVER NOW >'
-    },
-    {
-        img: image_4,
-        title: 'HIIT (High-Intensity Interval Training)',
-        body: 'Fast-paced, calorie-burning workouts combining strength and cardio.',
-        discover: 'DISCOVER NOW >'
-    },
-    {
-        img: image_4,
-        title: 'HIIT (High-Intensity Interval Training)',
-        body: 'Fast-paced, calorie-burning workouts combining strength and cardio.',
-        discover: 'DISCOVER NOW >'
-    },
-    {
-        img: image_5,
-        title: 'Strength Training',
-        body: 'Focused weightlifting and resistance exercises to build muscle and endurance.',
-        discover: 'DISCOVER NOW >'
-    },
-    {
-        img: image_4,
-        title: 'HIIT (High-Intensity Interval Training)',
-        body: 'Fast-paced, calorie-burning workouts combining strength and cardio.',
-        discover: 'DISCOVER NOW >'
-    },
-    {
-        img: image_4,
-        title: 'HIIT (High-Intensity Interval Training)',
-        body: 'Fast-paced, calorie-burning workouts combining strength and cardio.',
-        discover: 'DISCOVER NOW >'
-    },
-    {
-        img: image_5,
-        title: 'Strength Training',
-        body: 'Focused weightlifting and resistance exercises to build muscle and endurance.',
-        discover: 'DISCOVER NOW >'
-    },
-    {
-        img: image_4,
-        title: 'HIIT (High-Intensity Interval Training)',
-        body: 'Fast-paced, calorie-burning workouts combining strength and cardio.',
-        discover: 'DISCOVER NOW >'
-    }
-]

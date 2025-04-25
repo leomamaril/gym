@@ -1,6 +1,6 @@
 import About from "../Layouts/Home/About"
 import Trainers from "../Layouts/Home/Trainers"
-import Carousel from "../Layouts/Home/Carousel"
+import Classes from "../Layouts/Home/Classes"
 import Header from "../Layouts/Home/Header"
 
 import Change from "../Layouts/Home/Change"
@@ -13,7 +13,7 @@ export default function Home() {
 
             <Header />
             <About/>
-            <Carousel/>
+            <Classes/>
             <Trainers/>
             <Change/>
 

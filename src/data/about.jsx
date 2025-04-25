@@ -1,6 +1,3 @@
-import image_7 from '../assets/img/image7.png'
-import image_8 from '../assets/img/image8.png'
-import image_9 from '../assets/img/image9.png'
 export const ABOUT_HEADER = {
 
     about: "About Us",
@@ -17,50 +14,3 @@ export const TRAINER = {
 
 }
 
-export const TRAINERS = [
-    {
-        img: image_7,
-        title: 'Coach Isabella Dela Cruz',
-        body: 'Yoga & Flexibility Instructor'
-    },
-    {
-        img: image_8,
-        title: 'Coach Miguel Santos',
-        body: 'Strength & Conditioning Specialist'
-    },
-    {
-        img: image_9,
-        title: 'Coach Joaquin Reyes',
-        body: 'HIIT & Functional Training Expert'
-    },
-    {
-        img: image_7,
-        title: 'Coach Isabella Dela Cruz',
-        body: 'Yoga & Flexibility Instructor'
-    },
-    {
-        img: image_8,
-        title: 'Coach Miguel Santos',
-        body: 'Strength & Conditioning Specialist'
-    },
-    {
-        img: image_9,
-        title: 'Coach Joaquin Reyes',
-        body: 'HIIT & Functional Training Expert'
-    },
-    {
-        img: image_7,
-        title: 'Coach Isabella Dela Cruz',
-        body: 'Yoga & Flexibility Instructor'
-    },
-    {
-        img: image_8,
-        title: 'Coach Miguel Santos',
-        body: 'Strength & Conditioning Specialist'
-    },
-    {
-        img: image_9,
-        title: 'Coach Joaquin Reyes',
-        body: 'HIIT & Functional Training Expert'
-    },
-]

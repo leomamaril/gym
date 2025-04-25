@@ -28,7 +28,7 @@ export default function Footer() {
                         <div className="col-5">
                             <h1 className="font-name bebas">Quick Links</h1>
                             <div className="navbar-collapse" id="navbarNav">
-                                <div className="d-none d-md-block">
+                                <div className="d-none d-md-block fw-light">
                                     <ul className="navbar-nav flex-row gap-4">
                                         <NavbarLink target="home" href="/home" text="Home" />
                                         <NavbarLink target="about" href="/About" text="About Us" />
@@ -37,9 +37,9 @@ export default function Footer() {
                                     </ul>
                                 </div>
 
-                                <div className="col-12 d-block d-md-none d-lg-none">
+                                <div className="col-12 d-block d-md-none d-lg-none fw-light">
                                     <div className="row">
-                                        <div className="col-6">
+                                        <div className="col-6 ">
                                             <ul className="navbar-nav">
                                                 <NavbarLink target="home" href="/home" text="Home" />
                                                 <NavbarLink target="about" href="/About" text="About Us" />
@@ -64,10 +64,10 @@ export default function Footer() {
 
                         <div className="col-6">
                             <h1 className="font-name bebas">follow us on our social medias</h1>
-                            <div className="d-flex gap-3">
-                                <span>Fb</span>
-                                <span>Ig</span>
-                                <span>X</span>
+                            <div className="d-flex gap-3 ">
+                                <span><i className="bi bi-facebook"></i></span>
+                                <span><i className="bi bi-instagram"></i></span>
+                                <span><i className="bi bi-twitter-x"></i></span>
                             </div>
                         </div>
                     </div>
