@@ -20,16 +20,16 @@ export default function Workout() {
       const sidebarHeight = sidebar.offsetHeight;
       const viewportHeight = window.innerHeight;
 
-      // Distance from top of container to bottom of viewport
+ 
       const distanceToBottom = containerRect.bottom - viewportHeight;
 
-      // When container's bottom reaches viewport bottom
+     
       if (distanceToBottom <= 0) {
         setReachedBottom(true);
         setIsSticky(false);
       } else {
         setReachedBottom(false);
-        // Your existing sticky logic here
+       
         setIsSticky(containerRect.top <= 60);
       }
     };
@@ -38,7 +38,7 @@ export default function Workout() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const { classes } = useParams(); // Get the name from URL parameters
+  const { classes } = useParams(); 
   const workouts = WORKOUT_SCHED.find((item) => item.classes === classes);
 
   if (!workouts) {

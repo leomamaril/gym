@@ -22,16 +22,16 @@ export default function Header() {
       const sidebarHeight = sidebar.offsetHeight;
       const viewportHeight = window.innerHeight;
 
-      // Distance from top of container to bottom of viewport
+  
       const distanceToBottom = containerRect.bottom - viewportHeight;
 
-      // When container's bottom reaches viewport bottom
+   
       if (distanceToBottom <= 0) {
         setReachedBottom(true);
         setIsSticky(false);
       } else {
         setReachedBottom(false);
-        // Your existing sticky logic here
+       
         setIsSticky(containerRect.top <= 60);
       }
     };
@@ -91,12 +91,12 @@ export default function Header() {
       maxWidth: "100%",
     }}
   >
-    <div > {/* Ensure child divs fill container */}
+    <div >
       <img
         src={image_3}
         alt="Image 3"
         className="img-fluid"
-        style={{ width: "100%", height: "auto" }} // Force fluidity
+        style={{ width: "100%", height: "auto" }}
         loading="lazy"
       />
     </div>
@@ -105,7 +105,7 @@ export default function Header() {
         src={image_2}
         alt="Image 2"
         className="img-fluid"
-        style={{ width: "100%", height: "auto" }} // Force fluidity
+        style={{ width: "100%", height: "auto" }} 
         loading="lazy"
       />
     </div>
